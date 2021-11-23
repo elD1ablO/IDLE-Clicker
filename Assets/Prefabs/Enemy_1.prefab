@@ -262,7 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHP: 15
   maxHP: 15
-  goldGive: 2
+  goldToGive: 3
   healthBarFill: {fileID: 4853407377482368911}
 --- !u!1 &4853407378139399964
 GameObject:

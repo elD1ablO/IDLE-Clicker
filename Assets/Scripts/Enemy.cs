@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     public int currentHP;
     public int maxHP;
-    public int goldGive;
+    public int goldToGive;
     public Image healthBarFill;
 
     public void Damage()
@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
 
     public void Defeated()
     {
-        Debug.Log("defeated");
+        GameManager.instance.AddGold(goldToGive);
+        EnemyManager.instance.DefeatEnemy(gameObject);
     }
 }

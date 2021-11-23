@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d553891b80f50646b1762042f4c57e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8a0615ccafa068243a3c8dd16fa72c9c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHP: 10
   maxHP: 10
-  goldGive: 1
+  goldToGive: 2
   healthBarFill: {fileID: 5937555718025689776}
 --- !u!1 &5937555719222475299
 GameObject:
